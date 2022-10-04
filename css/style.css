@@ -24,7 +24,7 @@
     cursor: pointer;
 }
 .nav-list{
-    width: 50%;
+    width: 70%;
     /* background-color: rgb(181, 105, 105); */
     display: flex;
     align-items: center;
@@ -43,10 +43,10 @@
 }
 
 .rightNav{
-    width: 50%;
+    width: 30%;
     text-align: right;
     padding: 0 23px;
-    border: 2px solid coral;
+    /* border: 2px solid coral; */
 }
 #search{
     padding: 5px;
@@ -113,14 +113,18 @@
 }
 
 .secRight{
+    margin-top: 7px;
+    margin-bottom: 10px;
     /* height: 500px; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     /* max-width: 80%; */
     /* margin: 6px; */
-    background-color: antiquewhite;
-    border: 5px solid coral;
+    background-color: rgb(249, 247, 244);
+    /* border: 5px 5px 0px 5px solid coral; */
+    margin-left: 10px;
+    margin-right: 10px;
 
 }
 
@@ -132,9 +136,11 @@
     /* max-width: 80%; */
     margin: auto;
     flex-direction: row-reverse;
-    background-color: antiquewhite;
+    background-color: rgb(249, 247, 244);
     /* font-family: 'Montserrat', sans-serif; */
-    border: 5px solid coral;
+    margin-left: 10px;
+    margin-right: 10px;
+
 }
 .sectionSubTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -145,9 +151,14 @@
     margin-top: 4px;
     margin-right: 4px;
     margin-left: 4px;
+    width: 400px;
+    display: flex;
+    /* height: 70%; */
+    /* min-width: 50%; */
 }
 .contact{
     background-color: aliceblue;
+    max-width: 100%;
 }
 .text-center{
     text-align: center;
@@ -157,7 +168,7 @@
 }
 .form{
     max-width: 1200px;
-    margin: auto;
+    margin: 5px 42px 10px 42px ;
 }
 .form-input{
     margin: 13px 0;
@@ -170,8 +181,40 @@
 .footer{
     text-align: center;
     color: white;
+    /* background-image: url('../media/images/bg.png'); */
+    /* background: rgba(0, 0, 0, 0.7)url('../media/images/bg.png');
+    background-size: cover;
+    background-blend-mode: darken; */
+    font-size: 25px;
+    position: sticky;
 }
 
-/* .paras{
+.paras{
     padding: 0px 65px;
+}
+/* section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    
 } */
+
+
+
+
+.burger{
+    position: absolute;
+    cursor: pointer;
+    left: 5px;
+    top: 15px;
+    display: none;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 3px 3px;
+}

@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1140px){
+    .nav-list{
+        flex-direction:column
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.3s ease-out;
+        height: 450px;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    .secRight{
+        flex-direction: column-reverse;
+    }
+    .secLeft{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        align-items: center;
+        text-align: center;
+    }
+    .buttons{
+        align-items: center;
+        text-align: center;
+
+    }
+}
